@@ -9,11 +9,11 @@ To solve this problem, we need to use something called "Personal access token" o
 Please refer to the following doc to know about PAT and how to generate a PAT key:
 https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page
 
-Once you have got your PAT key generated, you can use the repo URL in the following format: https://{PAT}@{org_name}.visualstudio.com/_git/{your_repo}
+Once you have got your PAT key generated, you can use the repo URL in the following format: **https://{PAT}@{org_name}.visualstudio.com/_git/{your_repo}**
 
-**OR**
+**--OR--**
 
-https://{anything}:{PAT}@{org_name}.visualstudio.com/_git/{your_repo}
+**https://{anything}:{PAT}@{org_name}.visualstudio.com/_git/{your_repo}**
 
 Here is a sample snippet of the ARM template that you can refer to:
 
