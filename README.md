@@ -11,6 +11,10 @@ https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-persona
 
 Once you have got your PAT key generated, you can use the repo URL in the following format: https://{PAT}@{org_name}.visualstudio.com/_git/{your_repo}
 
+**OR**
+
+https://{anything}:{PAT}@{org_name}.visualstudio.com/_git/{your_repo}
+
 Here is a sample snippet of the ARM template that you can refer to:
 
        "resources": [
